@@ -181,3 +181,19 @@ button {
     color: var(--white-color);
     background-color: var(--pressed-state);
 }
+
+.portfolio-titles {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-family: var(--roboto-family);
+    color: var(--dark-color);
+}
+
+.item {
+    color: var(--body-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
