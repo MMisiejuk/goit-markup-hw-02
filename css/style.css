@@ -1,0 +1,17 @@
+:root {
+    --dark-color: #2E2F42;
+    --main-color: #4D5AE5;
+    --body-text-color: #434455;
+    --subtle-text: #8E8F99;
+    --light-color: #F4F4FD;
+    --success-color: #31D0AA;
+    --pressed-state: #404BBF;
+    --accent-color: #E7E9FC;
+    --hero-background: #2E2F42;
+    --white-color: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+a {
+    text-decoration: none;
+}
