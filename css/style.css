@@ -15,3 +15,43 @@
 a {
     text-decoration: none;
 }
+
+.body {
+    color: var(--body-text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.secondary-logo {
+    color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--light-color);
+}
+
+.nav-list {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.nav-list:hover, 
+.nav-list:focus {
+
+}
