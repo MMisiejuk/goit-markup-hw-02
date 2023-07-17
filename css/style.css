@@ -7,23 +7,33 @@
     --success-color: #31D0AA;
     --pressed-state: #404BBF;
     --accent-color: #E7E9FC;
-    --hero-background: #2E2F42;
     --white-color: #FFFFFF;
     --modal-background: #FCFCFC;
+    --roboto-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
 .body {
     color: var(--body-text-color);
-    font-family: Roboto;
+    font-family: var(--roboto-family);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: var(--white-color);
 }
 
 .logo {
@@ -43,15 +53,131 @@ a {
     color: var(--light-color);
 }
 
-.nav-list {
-    font-size: 16px;
+.nav-link {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    font-family: var(--roboto-family);
 }
 
-.nav-list:hover, 
-.nav-list:focus {
+.nav-link:hover, 
+.nav-link:focus {
+    color: var(--main-color);
+}
 
+.contact {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--body-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--main-color);
+}
+
+.first-section {
+    background-color: var(--dark-color);
+}
+
+.hero {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;   
+    color: var(--white-color);
+    background-color: var(--main-color);
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-family: var(--roboto-family);
+    color: var(--dark-color);
+}
+
+.main-text {
+    color: var(--body-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.third-title {
+    font-size: 36px;
+    color: var(--dark-color);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    font-family: var(--roboto-family);
+}
+
+.fourth-section {
+    background-color: var(--light-color);
+}
+
+.fourth-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    font-family: var(--roboto-family);
+}
+
+.members {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    font-family: var(--roboto-family);
+}
+
+.members-task {
+    color: var(--body-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-text {
+    color: var(--light-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.portfolio-btn {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--main-color);
+    background-color: var(--light-color);
+    border-radius: 4px;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+    color: var(--white-color);
+    background-color: var(--pressed-state);
 }
