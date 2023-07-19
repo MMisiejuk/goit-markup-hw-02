@@ -10,6 +10,7 @@
     --white-color: #FFFFFF;
     --modal-background: #FCFCFC;
     --roboto-family: 'Roboto', sans-serif;
+    --raleway-font: 'Raleway', sans-serif;
 }
 
 a {
@@ -43,14 +44,17 @@ body {
     text-transform: uppercase;
     line-height: 21px;
     letter-spacing: 0.03em;
+    font-family: var(--raleway-font);
 }
 
 .secondary-logo {
     color: var(--dark-color);
+    font-family: var(--raleway-font);
 }
 
 .logo-footer {
     color: var(--light-color);
+    font-style: var(--raleway-font);
 }
 
 .nav-link {
@@ -61,7 +65,7 @@ body {
     color: var(--dark-color);
 }
 
-.nav-link:hover, 
+.nav-link:hover,
 .nav-link:focus {
     color: var(--main-color);
 }
@@ -95,7 +99,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;   
+    letter-spacing: 0.04em;
     color: var(--white-color);
     background-color: var(--main-color);
     border-radius: 4px;
